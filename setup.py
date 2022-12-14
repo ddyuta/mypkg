@@ -16,7 +16,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='yuta_domen',
+    maintainer='Yuta Domen',
     maintainer_email='S21C1085EP@s.chibakoudai.jp',
     description='a package for practice',
     license='BSD-3-Clause',
