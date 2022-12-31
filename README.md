@@ -25,9 +25,9 @@ $ ros2 run mypkg listener
 ### 結果(端末2の表示)
 ``
                      :   
-[INFO] [1672468243.054642744] [listener]: Listen: 7
-[INFO] [1672468243.554157647] [listener]: Listen: 8
-[INFO] [1672468244.054175268] [listener]: Listen: 9
+[INFO] [1672468243.054642744] [listener]: Listen: 7   
+[INFO] [1672468243.554157647] [listener]: Listen: 8   
+[INFO] [1672468244.054175268] [listener]: Listen: 9   
                      :
 ``
 
