@@ -14,8 +14,8 @@
 
 ## 実行方法その1
 端末2つ仕様       
-端末1``` $ ros2 run mypkg talker```      
-端末2```$ ros2 run mypkg listener```
+端末1``$ ros2 run mypkg talker``      
+端末2``$ ros2 run mypkg listener``
 
 ## 実行方法その2
 実行方法その1のように2つのノードが端末を分けずに1つの端末で2つ同時に立ち上げる      
