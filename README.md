@@ -8,9 +8,11 @@
 ### talker.py(publisher)
 * 0.5秒周期で0からの数字をカウントしてトピックcountupを通じて送信する   
 * 型は16ビット符号つき整数
+* 言語:Python
 
 ### listener.py(subscriber)
 * トピックcountupからメッセージをもらって表示する
+* 言語:Python
 
 ## 実行方法その1
 パブリッシャ用の端末とサブスクライバ用の端末の2つの端末を使用       
@@ -34,7 +36,7 @@ $ ros2 run mypkg listener
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 ```
-###出力
+### 出力   
 ``                             :                                   ``   
 ``[listener-2] [INFO] [1672468781.105783726] [listener]: Listen: 7``   
 ``[listener-2] [INFO] [1672468781.605847465] [listener]: Listen: 8``  
