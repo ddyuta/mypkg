@@ -6,22 +6,20 @@
 トピックcountupをtalkerノードとlistenerノードでメッセージの受け渡しを行うパッケージ
 
 ### talker.py(publisher)
-0からの数字をカウントしてトピックcountupを通じて送信する   
-型は16ビット符号つき整数
+* 0からの数字をカウントしてトピックcountupを通じて送信する   
+* 型は16ビット符号つき整数
 
 ### listener.py(subscriber)
-トピックcountupからメッセージをもらって表示する
+* トピックcountupからメッセージをもらって表示する
 
 ## 実行方法その1
 端末を2つ使用する   
-端末1
-'''$ ros2 run mypkg talker'''
-端末2
-'''$ ros2 run mypkg listener'''
+端末1``` $ ros2 run mypkg talker```
+端末2```$ ros2 run mypkg listener```
 
 ## 実行方法その2
 実行方法その1のように2つのノードが端末を分けずに1つの端末で2つ同時に立ち上げる   
-'''$ ros2 launch mypkg talk_listen.launch.py'''
+```$ ros2 launch mypkg talk_listen.launch.py```
 
 ## 動作確認済み環境及びバージョン
 * Ubuntu 20.04
