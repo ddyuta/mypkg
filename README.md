@@ -6,7 +6,7 @@
 ``トピックcountupをtalkerノードとlistenerノードでメッセージの受け渡しを行うパッケージ``
 
 ### talker.py(publisher)
-* 0からの数字をカウントしてトピックcountupを通じて送信する   
+* 0.5秒周期で0からの数字をカウントしてトピックcountupを通じて送信する   
 * 型は16ビット符号つき整数
 
 ### listener.py(subscriber)
@@ -22,7 +22,7 @@ $ ros2 run mypkg talker
 ```
 $ ros2 run mypkg listener
 ```
-### 結果(端末2の表示)
+### 出力(端末2の表示)
 ``                         :                          ``   
 ``[INFO] [1672468243.054642744] [listener]: Listen: 7``   
 ``[INFO] [1672468243.554157647] [listener]: Listen: 8``   
@@ -34,7 +34,12 @@ $ ros2 run mypkg listener
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 ```
-
+###出力
+``                             :                                   ``   
+``[listener-2] [INFO] [1672468781.105783726] [listener]: Listen: 7``   
+``[listener-2] [INFO] [1672468781.605847465] [listener]: Listen: 8``  
+``[listener-2] [INFO] [1672468782.105999722] [listener]: Listen: 9``
+``                             :                                   ``
 ## 動作確認済み環境及びバージョン
 * Ubuntu 20.04
   * ROS2 foxy
