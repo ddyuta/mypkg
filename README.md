@@ -24,7 +24,7 @@ $ ros2 run mypkg talker
 ```
 $ ros2 run mypkg listener
 ```
-### 出力(端末2の表示)
+### 出力例(端末2の表示)
 ``                         :                          ``   
 ``[INFO] [1672468243.054642744] [listener]: Listen: 7``   
 ``[INFO] [1672468243.554157647] [listener]: Listen: 8``   
@@ -36,7 +36,7 @@ $ ros2 run mypkg listener
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 ```
-### 出力   
+### 出力例  
 ``                             :                                   ``   
 ``[listener-2] [INFO] [1672468781.105783726] [listener]: Listen: 7``   
 ``[listener-2] [INFO] [1672468781.605847465] [listener]: Listen: 8``  
