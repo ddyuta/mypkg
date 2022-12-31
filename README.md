@@ -38,7 +38,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 ``                             :                                   ``   
 ``[listener-2] [INFO] [1672468781.105783726] [listener]: Listen: 7``   
 ``[listener-2] [INFO] [1672468781.605847465] [listener]: Listen: 8``  
-``[listener-2] [INFO] [1672468782.105999722] [listener]: Listen: 9``
+``[listener-2] [INFO] [1672468782.105999722] [listener]: Listen: 9``   
 ``                             :                                   ``
 ## 動作確認済み環境及びバージョン
 * Ubuntu 20.04
